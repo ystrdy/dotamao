@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<title>DotaMao</title>
+	<meta name="keywords" content="DOTAMAO">
+	<meta name="description" content="DOTAMAO">
+	<link rel="stylesheet" href="css/player.css">
+	<base target="_blank">
+</head>
+<body>
+	<div class="header">
+		<div class="inner">
+			<h1 class="h_logo"><a href="" target="_self">DOTAMAO</a></h1>
+			<ul class="h_nav">
+				<li><a href="" target="_self">首页</a></li>
+				<li><a href="" target="_self">物品</a></li>
+				<li><a href="" target="_self">英雄</a></li>
+				<li><a href="" target="_self">战队</a></li>
+			</ul>
+			<div class="h_search">
+				<form action="">
+					<input type="text" placeholder="输入国服昵称或数字ID">
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="user_info">
+		<div class="inner">
+			<div class="ui_data1">
+				<img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c6/c69dad30934c1595cb6b280306cd9555625e0f67_full.jpg" alt="最后的战役">
+				<div>
+					<strong>最后的战役</strong>
+					<span>ID 139876032</span>
+				</div>
+			</div>
+			<div class="ui_wrap">
+				<div class="ui_data2">
+					<ul>
+						<li><span>队伍</span><i>Newbee</i></li>
+						<li><span>公开比赛</span><i>是</i></li>
+						<li><span>名称</span><i>kaka</i></li>
+						<li><span>历史比赛</span><i>同步中</i></li>
+					</ul>
+					<div class="ui_btn bisai">比赛</div>
+				</div>
+				<div class="ui_data3">
+					<ul>
+						<li><span>单排积分</span><i>9021</i></li>
+						<li><span>组队积分</span><i>6017</i></li>
+						<li><span>平台估分</span><i>2345</i></li>
+						<li><span>公开分数</span><i>是</i></li>
+					</ul>
+					<div class="ui_btn tianti">天梯</div>
+				</div>
+			</div>
+			<ul class="ui_data4">
+				<li><span>平均GPM</span><i>420</i></li>
+				<li><span>第一滴血</span><i>54</i></li>
+				<li><span>平均XPM</span><i>470</i></li>
+				<li><span>杀害信使</span><i>16</i></li>
+				<li><span>平均正补</span><i>169</i></li>
+				<li><span>夺取不朽盾</span><i>0</i></li>
+				<li><span>暴走</span><i>1</i></li>
+				<li><span>吞食奶酪</span><i>4</i></li>
+				<li><span>三杀</span><i>72</i></li>
+				<li><span>堆叠野怪</span><i>228</i></li>
+			</ul>
+		</div>
+	</div>
+	<div class="data_charts">
+		<div class="count_chart">
+			<h2 class="cc_hd">比赛统计（半年）</h2>
+			<div class="cc_chart"></div>
+		</div>
+		<div class="style_chart">
+			<h2 class="sc_hd">打法风格（近20场）</h2>
+			<div class="sc_chart"></div>
+		</div>
+	</div>
+	<div class="latest_match">
+		<div class="lm_hd">
+			<h2>最近比赛</h2>
+		</div>
+		<div class="lm_bd">
+			<table>
+				<thead>
+					<tr>
+						<th style="width:25%;">英雄</th>
+						<th style="width:14%;">比赛 ID</th>
+						<th style="width:15%;">结束时间</th>
+						<th style="width:8%;">结果</th>
+						<th style="width:18%;">KDA(K/D/A)</th>
+						<th style="width:13%;">Level</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+						<td>2379131536<br><i>天梯匹配</i>
+						</td>
+						<td>1个月前</td>
+						<td>胜利</td>
+						<td>12.0 (18 / 2 / 6)</td>
+						<td>Normal</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="useful_hero">
+			<div class="uh_hd">
+				<h2>常用英雄</h2>
+			</div>
+			<div class="uh_bd">
+				<table>
+					<thead>
+						<tr>
+							<th style="width:24%;">英雄</th>
+							<th style="width:18%;">使用次数</th>
+							<th style="width:17%;">胜率</th>
+							<th style="width:25%;">KDA (K / D / A)</th>
+							<th style="width:15%;">平均KDA</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr data-href="http://www.baidu.com" data-target="_self">
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td>
+								<div class="column_progress white">86<i style="width:100.0%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress green">57.0%<i style="width:56.98%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress yellow">2.96<span>(8.4 / 6.4 / 10.5)</span><i style="width:61.3265315352%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress grey">2.66<i style="width:69.9833323033%;"></i></div>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td>
+								<div class="column_progress white">86<i style="width:100.0%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress green">57.0%<i style="width:56.98%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress yellow">2.96<span>(8.4 / 6.4 / 10.5)</span><i style="width:61.3265315352%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress grey">2.66<i style="width:69.9833323033%;"></i></div>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td>
+								<div class="column_progress white">86<i style="width:100.0%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress green">57.0%<i style="width:56.98%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress yellow">2.96<span>(8.4 / 6.4 / 10.5)</span><i style="width:61.3265315352%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress grey">2.66<i style="width:69.9833323033%;"></i></div>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td>
+								<div class="column_progress white">86<i style="width:100.0%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress green">57.0%<i style="width:56.98%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress yellow">2.96<span>(8.4 / 6.4 / 10.5)</span><i style="width:61.3265315352%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress grey">2.66<i style="width:69.9833323033%;"></i></div>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td>
+								<div class="column_progress white">86<i style="width:100.0%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress green">57.0%<i style="width:56.98%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress yellow">2.96<span>(8.4 / 6.4 / 10.5)</span><i style="width:61.3265315352%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress grey">2.66<i style="width:69.9833323033%;"></i></div>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td>
+								<div class="column_progress white">86<i style="width:100.0%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress green">57.0%<i style="width:56.98%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress yellow">2.96<span>(8.4 / 6.4 / 10.5)</span><i style="width:61.3265315352%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress grey">2.66<i style="width:69.9833323033%;"></i></div>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td>
+								<div class="column_progress white">86<i style="width:100.0%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress green">57.0%<i style="width:56.98%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress yellow">2.96<span>(8.4 / 6.4 / 10.5)</span><i style="width:61.3265315352%;"></i></div>
+							</td>
+							<td>
+								<div class="column_progress grey">2.66<i style="width:69.9833323033%;"></i></div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="good_friends">
+			<div class="gf_hd">
+				<h2>好友</h2>
+			</div>
+			<div class="uh_bd">
+				<table>
+					<thead>
+						<tr>
+							<th>名称</th>
+							<th style="width:25%;">单排积分</th>
+							<th style="width:25%;">组队积分</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td colspan="3" class="center">暂无好友</td>
+						</tr>
+						<tr data-href="http://www.baidu.com" data-target="_self">
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td class="center">1234</td>
+							<td class="center">1234</td>
+						</tr>
+						<tr data-href="http://www.baidu.com" data-target="_self">
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td class="center">1234</td>
+							<td class="center">1234</td>
+						</tr>
+						<tr data-href="http://www.baidu.com" data-target="_self">
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td class="center">1234</td>
+							<td class="center">1234</td>
+						</tr>
+						<tr data-href="http://www.baidu.com" data-target="_self">
+							<td><img src="http://www.dota2.com.cn/images/heroes/windrunner_hphover.png">风行者</td>
+							<td class="center">1234</td>
+							<td class="center">1234</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="inner">
+			<h4>dota猫</h4>
+			<p>本站数据来源于Valve,Steam,Dota2.</p>
+			<p>联系我们： <a href="mailto:admin@dotamao.com">admin@dotamao.com</a></p>
+		</div>
+	</div>
+	<script src="js/common.js"></script>
+	<script src="http://cdn.hcharts.cn/highcharts/5.0.6/highcharts.js"></script>
+	<script src="http://cdn.hcharts.cn/highcharts/5.0.6/highcharts-more.js"></script>
+	<script>
+		/* 点击刷新 */
+		$(function() {
+			var Tips = function(parent) {
+				this.parent = parent;
+				this.element = null;
+			};
+			Tips.prototype = {
+				create: function() {
+					var element = $('<div></div>');
+					element.addClass('ui_tips hidden')
+						.appendTo(this.parent)
+					return element;
+				},
+				center: function() {
+					var element = this.element,
+						width;
+					if (element) {
+						width = element.outerWidth();
+						element.css('margin-left', -width / 2);
+					}
+				},
+				show: function(msg) {
+					var element = this.element;
+					if (!element) {
+						element = this.element = this.create();
+					}
+					element.removeClass('hidden')
+						.text(msg + '');
+					this.center();
+				},
+				hide: function() {
+					var element = this.element;
+					if (element) {
+						element.addClass('hidden');
+					}
+				}
+			};
+			var Animation = function(element) {
+				this.element = element;
+			};
+			Animation.prototype = {
+				start: function() {
+					var element = this.element;
+					if (element) {
+						element.addClass('animate');
+					}
+				},
+				stop: function() {
+					var element = this.element;
+					if (element) {
+						element.removeClass('animate');
+					}
+				}
+			};
+
+			/*点击比赛*/
+			(function() {
+				var element = $('.bisai'),
+					tips = new Tips(element),
+					animation = new Animation(element);
+				element.on('click', function() {
+					// 显示提示信息
+					tips.show('比赛提示信息');
+					// 开始动画
+					animation.start();
+					// 更新信息
+					setTimeout(function() {
+						// TODO 更新
+						// ...
+
+						// 隐藏提示信息
+						tips.hide();
+						// 停止动画
+						animation.stop();
+					}, 3000);
+				});
+			})();
+
+			/*点击天梯*/
+			(function() {
+				var element = $('.tianti'),
+					tips = new Tips(element),
+					animation = new Animation(element);
+				element.on('click', function() {
+					// 显示提示信息
+					tips.show('天梯提示信息');
+					// 开始动画
+					animation.start();
+					// 更新信息
+					setTimeout(function() {
+						// TODO 更新
+						// ...
+
+						// 隐藏提示信息
+						tips.hide();
+						// 停止动画
+						animation.stop();
+					}, 3000);
+				});
+			})();
+
+		});
+		/* 比赛统计（半年） */
+		$(function() {
+			$('.cc_chart').highcharts({
+				chart: {
+					polar: true,
+					backgroundColor: 'transparent',
+					margin: [20, 0, 0, 0],
+					spacing: [0, 0, 0, 0]
+				},
+				title: {
+					text: null
+				},
+				credits: {
+					enabled: false
+				},
+				legend: {
+					enabled: false
+				},
+				tooltip: {
+					enabled: false
+				},
+				xAxis: {
+					categories: [
+						'输出(70.88)',
+						'推塔(80.21)',
+						'胜率(90.77)',
+						'参战(92.4)',
+						'发育(84.26)',
+						'生存(9.85)'
+					],
+					tickmarkPlacement: 'on',
+					lineWidth: 0,
+					// gridLineColor : 'rgba(192, 192, 192, 0.3)',
+					gridLineColor: '#546776',
+					labels: {
+						style: {
+							color: '#546776',
+							fontFamily: '微软雅黑'
+						}
+					}
+				},
+				yAxis: {
+					gridLineInterpolation: 'polygon',
+					// gridLineColor : 'rgba(192, 192, 192, 0.3)',
+					gridLineColor: '#546776',
+					tickAmount: 3,
+					lineWidth: 0,
+					labels: {
+						enabled: false
+					}
+				},
+				series: [{
+					type: 'area',
+					fillColor: 'rgba(255, 198, 97, 0.3)',
+					lineColor: 'rgba(255, 198, 97, 1)',
+					marker: {
+						fillColor: 'rgba(255, 198, 97, 1)'
+					},
+					states: {
+						hover: {
+							enabled: false
+						}
+					},
+					data: [70.88, 80.21, 90.77, 92.4, 84.26, 9.85]
+				}]
+			});
+		});
+		/* 打法风格（近20场） */
+		$(function() {
+			$('.sc_chart').highcharts({
+				chart: {
+					polar: true,
+					backgroundColor: 'transparent',
+					margin: [20, 0, 0, 0],
+					spacing: [0, 0, 0, 0]
+				},
+				title: {
+					text: null
+				},
+				credits: {
+					enabled: false
+				},
+				legend: {
+					enabled: false
+				},
+				pane: {
+					startAngle: -36
+				},
+				tooltip: {
+					enabled: false
+				},
+				xAxis: {
+					categories: [
+						'参战能力',
+						'打钱能力',
+						'辅助能力',
+						'推塔能力',
+						'多面能力'
+					],
+					tickmarkPlacement: 'on',
+					lineWidth: 0,
+					gridLineColor: '#546776',
+					// gridLineColor : 'rgba(192, 192, 192, 0.3)',
+					labels: {
+						style: {
+							color: '#546776',
+							fontFamily: '微软雅黑'
+						}
+					}
+				},
+				yAxis: {
+					gridLineInterpolation: 'polygon',
+					gridLineColor: '#546776',
+					// gridLineColor : 'rgba(192, 192, 192, 0.3)',
+					tickAmount: 3,
+					lineWidth: 0,
+					labels: {
+						enabled: false
+					}
+				},
+				series: [{
+					type: 'area',
+					fillColor: 'rgba(255, 198, 97, 0.3)',
+					lineColor: 'rgba(255, 198, 97, 1)',
+					marker: {
+						fillColor: 'rgba(255, 198, 97, 1)'
+					},
+					states: {
+						hover: {
+							enabled: false
+						}
+					},
+					data: [8, 7, 6, 5, 4]
+				}]
+			});
+		});
+		// 点击表格跳转
+		$('table tr[data-href]').on('click', function() {
+			var $this = $(this),
+				href = $this.attr('data-href'),
+				target = $this.attr('data-target') || '_self';
+			if (target === '_blank') {
+				window.open(href);
+			} else {
+				location.href = href;
+			}
+		});
+	</script>
+</body>
+</html>
